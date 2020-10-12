@@ -1,5 +1,5 @@
 <h1 align="center">
-  CodeDrips' default starter
+  CodeDrips' default starter(Extended)
 </h1>
 
 ## 🚀 Quick start
@@ -10,7 +10,7 @@
 
     ```sh
     # create a new Gatsby site using the default starter
-    gatsby new site-folder-name https://github.com/codedrips/gatsby-starter-codedrips
+    gatsby new site-folder-name https://github.com/inkoop/gatsby-starter-codedrips
     ```
 
 ## 🧐 What's inside?
@@ -48,4 +48,3 @@ A quick look at the base for this starter.
     ├── static
     │   └── _redirects
     └── yarn.lock
-
