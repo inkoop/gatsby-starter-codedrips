@@ -37,8 +37,14 @@ A quick look at the base for this starter.
     │   │       │   └── _normalize.scss
     │   │       └── main.scss
     │   ├── components
+    │   │   └── header.js
+    │   │   └── header.scss
+    │   │   └── footer.js
+    │   │   └── footer.scss
+    │   │   └── seo.js
     │   ├── layouts
     │   │   └── index.js
+    │   │   └── index.scss
     │   ├── pages
     │   │   ├── 404.js
     │   │   └── index.js
