@@ -1,11 +1,11 @@
 ::-moz-selection {
-  color: $color--secondary;
-  background: $color--primary;
+  color: var(--color-secondary);
+  background: var(--color-primary);
 }
 
 ::selection {
-  color: $color--secondary;
-  background: $color--primary;
+  color: var(--color-secondary);
+  background: var(--color-primary);
 }
 
 body {
@@ -15,38 +15,37 @@ body {
 }
 
 h1 {
-  
 }
 
 h2 {
-  
 }
 
 h3 {
-  
 }
 
 h4 {
-  
 }
 
 h5 {
-  
 }
 
 h6 {
-  
 }
 
-p, ul, li, ol, span, div, table {
-  font-family: $font;
+p,
+ul,
+li,
+ol,
+span,
+div,
+table {
+  font-family: var(--font-primary);
   font-size: 16px;
   font-weight: 300;
   line-height: 1.2;
 }
 
 a {
-  font-family: $font;
-  color: $color--primary;
+  font-family: var(--font-primary);
+  color: var(--color-primary);
 }
-

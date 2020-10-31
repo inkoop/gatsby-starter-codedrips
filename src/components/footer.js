@@ -1,18 +1,19 @@
-import React, { Component } from 'react'
-import Link from '../utils/link'
+import React from "react"
 
-class Footer extends Component {
-  render() {
-    return (
-      <footer className='footer'>
-        <div className='footer__inner'>
-          <Link to='/' title='Marchetti Chwyla' className='footer__logo'>
-            Site Name
-          </Link>
-        </div>
-      </footer>
-    )
-  }
+import Link from "../utils/link"
+
+import "./footer.scss"
+
+const Footer = () => {
+  return (
+    <footer className="footer">
+      <div className="footer__container">
+        <Link to="/" title="Site Name" className="footer__logo">
+          Site Name
+        </Link>
+      </div>
+    </footer>
+  )
 }
 
 export default Footer

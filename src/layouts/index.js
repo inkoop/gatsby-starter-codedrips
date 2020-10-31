@@ -1,10 +1,12 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { StaticQuery, graphql } from 'gatsby'
+import React from "react"
+import PropTypes from "prop-types"
+import { StaticQuery, graphql } from "gatsby"
 
-import '../assets/scss/main.scss'
+import "../assets/scss/main.scss"
 
-const Layout = ({ children, location }) => (
+import "./index.scss"
+
+const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -15,14 +17,13 @@ const Layout = ({ children, location }) => (
         }
       }
     `}
-    render={data => {
+    render={(data) => {
       return (
         <>
-          <main>{ children }</main>
+          <main>{children}</main>
         </>
       )
-    }
-    }
+    }}
   />
 )
 

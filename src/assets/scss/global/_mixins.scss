@@ -4,10 +4,13 @@ BREAKPOINTS
 
 @mixin breakpoint($point) {
   @if $point == large {
-     @media (min-width: 1240px) { @content; }
-  }
-  @else if $point == medium {
-     @media (min-width: 900px) { @content; }
+    @media (min-width: 1240px) {
+      @content;
+    }
+  } @else if $point == medium {
+    @media (min-width: 900px) {
+      @content;
+    }
   }
 }
 
@@ -28,14 +31,13 @@ BREAKPOINTS
     width: 100%;
     height: $size;
     background: $color;
-    transition: transform .3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
     transform: translateX(-101%);
   }
 
   &:hover::before {
     transform: translateX(0);
   }
-
 }
 
 @mixin inner() {
