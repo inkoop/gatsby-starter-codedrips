@@ -13,6 +13,24 @@
     gatsby new site-folder-name https://github.com/inkoop/gatsby-starter-codedrips
     ```
 
+2. **Available Scripts**
+
+    ```sh
+    npm start
+    ```
+    ```sh
+    npm run build
+    ```
+    ```sh
+    npm run format
+    ```
+    ```sh
+    npm run lint
+    ```
+    ```sh
+    npm run lint-fix
+    ```
+
 ## 🧐 What's inside?
 
 A quick look at the base for this starter.
