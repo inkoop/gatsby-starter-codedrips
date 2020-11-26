@@ -39,7 +39,7 @@ function SEO({ children, description, lang, meta, title, image, path }) {
         },
         {
           name: "application-name",
-          content: "Inkoop",
+          content: "Atollon",
         },
         // Schema.org for Google
         {
