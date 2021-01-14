@@ -8,6 +8,10 @@
     "standard",
     "plugin:prettier/recommended"
   ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -18,5 +22,10 @@
   "plugins": ["react"],
   "rules": {
     "no-new": 0
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }
