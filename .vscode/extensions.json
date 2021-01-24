@@ -1,9 +1,10 @@
 {
   "recommendations": [
-    "editorconfig.editorconfig",
-    "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
     "dsznajder.es7-react-js-snippets",
-    "jock.svg"
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "jock.svg",
+    "stylelint.vscode-stylelint"
   ]
 }
