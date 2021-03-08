@@ -1,9 +1,9 @@
 import React from "react"
 
-import SEO from "../components/seo.js"
-import Header from "../components/header"
-import Footer from "../components/footer"
 import ErrorContainer from "../components/ErrorContainer"
+import Footer from "../components/footer"
+import Header from "../components/header"
+import SEO from "../components/seo.js"
 
 const NotFoundPage = () => (
   <>

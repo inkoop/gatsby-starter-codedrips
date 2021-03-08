@@ -12,23 +12,21 @@ const Header = () => {
   }
 
   return (
-    <>
-      <header className="header">
-        <div className="header__container">
-          <Link to="/" title="Site Name" className="header__logo">
-            Site Name
-          </Link>
-          <nav className="header__nav">
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-            </ul>
-          </nav>
-          <button onClick={toggleIsVisible}>Toggle Menu</button>
-        </div>
-      </header>
-    </>
+    <header className="header">
+      <div className="header__container">
+        <Link to="/" title="Site Name" className="header__logo">
+          Site Name
+        </Link>
+        <nav className="header__nav">
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+          </ul>
+        </nav>
+        <button onClick={toggleIsVisible}>Toggle Menu</button>
+      </div>
+    </header>
   )
 }
 

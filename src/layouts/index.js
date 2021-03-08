@@ -1,6 +1,8 @@
 import React from "react"
-import PropTypes from "prop-types"
+
 import { StaticQuery, graphql } from "gatsby"
+
+import PropTypes from "prop-types"
 
 import "../assets/scss/main.scss"
 
@@ -18,11 +20,7 @@ const Layout = ({ children }) => (
       }
     `}
     render={(data) => {
-      return (
-        <>
-          <main>{children}</main>
-        </>
-      )
+      return <main>{children}</main>
     }}
   />
 )

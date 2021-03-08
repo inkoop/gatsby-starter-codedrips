@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: `https://codedrips.com`,
   },
   plugins: [
-    `gatsby-plugin-sass`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-layout`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
@@ -21,6 +21,12 @@ module.exports = {
         theme_color: `#000000`,
         display: `minimal-ui`,
         icon: `src/assets/images/favicon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: "gatsby-plugin-sass",
+      options: {
+        implementation: require("sass"),
       },
     },
     /*
