@@ -10,7 +10,7 @@
 
     ```sh
     # create a new Gatsby site using the default starter
-    gatsby new site-folder-name https://github.com/inkoop/gatsby-starter-codedrips
+    npx gatsby new site-folder-name https://github.com/inkoop/gatsby-starter-codedrips
     ```
 
 2. **Available Scripts**
