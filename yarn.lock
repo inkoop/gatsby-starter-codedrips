@@ -1626,9 +1626,9 @@
   "version" "2.1.1"
 
 "@sindresorhus/is@^4.0.0":
-  "integrity" "sha512-FyD2meJpDPjyNQejSjvnhpgI/azsQkA4lGbuu5BQZfjvJ9cbRZXzeWL2HceCekW4lixO9JPesIIQkSoLjeJHNQ=="
-  "resolved" "https://registry.npmjs.org/@sindresorhus/is/-/is-4.0.0.tgz"
-  "version" "4.0.0"
+  "integrity" "sha512-Qm9hBEBu18wt1PO2flE7LPb30BHMQt1eQgbV76YntdNk73XZGpn3izvGTYxbGgzXKgbCjiia0uxTd3aTNQrY/g=="
+  "resolved" "https://registry.npmjs.org/@sindresorhus/is/-/is-4.0.1.tgz"
+  "version" "4.0.1"
 
 "@sindresorhus/slugify@^1.1.0":
   "integrity" "sha512-V9nR/W0Xd9TSGXpZ4iFUcFGhuOJtZX82Fzxj1YISlbSgKvIiNa7eLEZrT0vAraPOt++KHauIVNYgGRgjc13dXA=="
@@ -3153,9 +3153,9 @@
     "lru-cache" "4.0.0"
 
 "cache-manager@^3.4.0":
-  "integrity" "sha512-yE50UL7AcuQ1ZydREl9OvPYD74gw3qS9HtZTY+2gS7fcZeIsyiof2UF+WReqg5ZX+852anbDe1fAtjsaMYT2yw=="
-  "resolved" "https://registry.npmjs.org/cache-manager/-/cache-manager-3.4.1.tgz"
-  "version" "3.4.1"
+  "integrity" "sha512-6+Hfzy1SNs/thUwo+07pV0ozgxc4sadrAN0eFVGvXl/X9nz3J0BqEnnEoyxEn8jnF+UkEo0MKpyk9BO80hMeiQ=="
+  "resolved" "https://registry.npmjs.org/cache-manager/-/cache-manager-3.4.3.tgz"
+  "version" "3.4.3"
   dependencies:
     "async" "3.2.0"
     "lodash" "^4.17.21"
@@ -5055,10 +5055,10 @@
   "resolved" "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz"
   "version" "2.0.0"
 
-"eslint-config-prettier@^8.2.0":
-  "integrity" "sha512-dWV9EVeSo2qodOPi1iBYU/x6F6diHv8uujxbxr77xExs3zTAlNXvVZKiyLsQGNz7yPV2K49JY5WjPzNIuDc2Bw=="
-  "resolved" "https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-8.2.0.tgz"
-  "version" "8.2.0"
+"eslint-config-prettier@^8.3.0":
+  "integrity" "sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew=="
+  "resolved" "https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz"
+  "version" "8.3.0"
 
 "eslint-config-react-app@^6.0.0":
   "integrity" "sha512-bpoAAC+YRfzq0dsTk+6v9aHm/uqnDwayNAXleMypGl6CpxI9oXXscVHo4fk3eJPIn+rsbtNetB4r/ZIidFIE8A=="
@@ -5252,10 +5252,10 @@
     "normalize-path" "^3.0.0"
     "schema-utils" "^3.0.0"
 
-"eslint@*", "eslint@^3 || ^4 || ^5 || ^6 || ^7", "eslint@^5.0.0 || ^6.0.0 || ^7.0.0", "eslint@^7.0.0", "eslint@^7.1.0", "eslint@^7.12.1", "eslint@^7.20.0", "eslint@^7.24.0", "eslint@^7.5.0", "eslint@>=5.0.0", "eslint@>=7.0.0", "eslint@>=7.5.0":
-  "integrity" "sha512-k9gaHeHiFmGCDQ2rEfvULlSLruz6tgfA8DEn+rY9/oYPFFTlz55mM/Q/Rij1b2Y42jwZiK3lXvNTw6w6TXzcKQ=="
-  "resolved" "https://registry.npmjs.org/eslint/-/eslint-7.24.0.tgz"
-  "version" "7.24.0"
+"eslint@*", "eslint@^3 || ^4 || ^5 || ^6 || ^7", "eslint@^5.0.0 || ^6.0.0 || ^7.0.0", "eslint@^7.0.0", "eslint@^7.1.0", "eslint@^7.12.1", "eslint@^7.20.0", "eslint@^7.25.0", "eslint@^7.5.0", "eslint@>=5.0.0", "eslint@>=7.0.0", "eslint@>=7.5.0":
+  "integrity" "sha512-TVpSovpvCNpLURIScDRB6g5CYu/ZFq9GfX2hLNIV4dSBKxIWojeDODvYl3t0k0VtMxYeR8OXPCFE5+oHMlGfhw=="
+  "resolved" "https://registry.npmjs.org/eslint/-/eslint-7.25.0.tgz"
+  "version" "7.25.0"
   dependencies:
     "@babel/code-frame" "7.12.11"
     "@eslint/eslintrc" "^0.4.0"
@@ -6440,7 +6440,7 @@
     "valid-url" "^1.0.9"
     "xstate" "^4.14.0"
 
-"gatsby-source-wordpress@^5.0.0":
+"gatsby-source-wordpress@^5.3.1":
   "integrity" "sha512-tbmupxQC66yMETsDZc8QH+wdNUUGTfrkkmtjnPhu+WqSZD4uvkuaoOevQ8BeFaiUpqZ1RfxwgEcyeFcd+JsJjA=="
   "resolved" "https://registry.npmjs.org/gatsby-source-wordpress/-/gatsby-source-wordpress-5.3.1.tgz"
   "version" "5.3.1"
@@ -11652,9 +11652,9 @@
   "version" "1.0.0"
 
 "resolve-alpn@^1.0.0":
-  "integrity" "sha512-rTuiIEqFmGxne4IovivKSDzld2lWW9QCjqv80SYjPgf+gS35eaCAjaP54CCwGAwBtnCsvNLYtqxe1Nw+i6JEmA=="
-  "resolved" "https://registry.npmjs.org/resolve-alpn/-/resolve-alpn-1.0.0.tgz"
-  "version" "1.0.0"
+  "integrity" "sha512-8OyfzhAtA32LVUsJSke3auIyINcwdh5l3cvYKdKO0nvsYSKuiLfTM5i78PJswFPT8y6cPW+L1v6/hE95chcpDA=="
+  "resolved" "https://registry.npmjs.org/resolve-alpn/-/resolve-alpn-1.1.2.tgz"
+  "version" "1.1.2"
 
 "resolve-cwd@^2.0.0":
   "integrity" "sha1-AKn3OHVW4nA46uIyyqNypqWbZlo="
