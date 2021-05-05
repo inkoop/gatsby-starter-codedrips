@@ -1,3 +1,6 @@
+// const path = require(`path`)
+require("dotenv").config({ path: ".env" })
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Starter CodeDrips`,
@@ -8,6 +11,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-layout`,
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -23,13 +27,13 @@ module.exports = {
         icon: `src/assets/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
+    /*
     {
-      resolve: "gatsby-plugin-sass",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        implementation: require("sass"),
+        path: path.resolve(`./src`),
       },
     },
-    /*
     {
       resolve: "gatsby-source-wordpress",
       options: {
