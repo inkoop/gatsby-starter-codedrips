@@ -2,8 +2,6 @@ import React from "react"
 
 import Link from "../utils/link"
 
-import "./footer.scss"
-
 const Footer = () => {
   return (
     <footer className="footer">

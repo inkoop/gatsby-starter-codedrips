@@ -2,8 +2,6 @@ import React from "react"
 
 import Link from "../utils/link"
 
-import "./ErrorContainer.scss"
-
 const ErrorContainer = () => {
   return (
     <section className="error-container">

@@ -2,8 +2,6 @@ import React from "react"
 
 import Link from "../utils/link"
 
-import "./header.scss"
-
 const Header = () => {
   const [isVisible, setIsVisible] = React.useState(false)
 
